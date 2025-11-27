@@ -1,0 +1,9 @@
+* {
+  font-family: "PT Sans", sans-serif;
+}
+.bg-blue {
+  background: linear-gradient(to bottom right, skyblue, green);
+}
+.height-100vh {
+  height: 100vh;
+}
