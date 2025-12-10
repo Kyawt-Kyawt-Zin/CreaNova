@@ -35,7 +35,7 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row g-0">
         <div class="col-2">
           <!-- logo  -->
           <h2 class="text-center text-lg-start py-3">
@@ -57,19 +57,174 @@
             >
             <a href="#" class="list-group-item list-group-item-action"
               ><i class="bi bi-house me-2"></i>
-              <span class="d-none d-lg-inline">Dashboard</span></a
+              <span class="d-none d-lg-inline">User</span></a
             >
             <a href="#" class="list-group-item list-group-item-action"
               ><i class="bi bi-house me-2"></i>
-              <span class="d-none d-lg-inline">Dashboard</span></a
+              <span class="d-none d-lg-inline">Courses</span></a
             >
             <a href="#" class="list-group-item list-group-item-action"
               ><i class="bi bi-house me-2"></i>
-              <span class="d-none d-lg-inline">Dashboard</span></a
+              <span class="d-none d-lg-inline">Analytics</span></a
             >
           </div>
         </div>
-        <div class="col-10 bg-warning">Right Side</div>
+
+        <!-- nav bar  -->
+        <div class="col-10 bg-secondary">
+          <ul class="nav justify-content-end bg-light py-3">
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle nav-link"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi bi-person-circle"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">User Profile</a></li>
+                <li><a class="dropdown-item" href="#">LogOut</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-gear-fill"></i></a>
+            </li>
+          </ul>
+          <div class="container py-3">
+            <!-- download button  -->
+            <div class="row">
+              <div class="col">
+                <div class="alert alert-success" role="alert">
+                  <i class="bi bi-cloud-arrow-down-fill me-2"></i>
+                  A new version of the admin dashboard is released.
+                  <a href="#">Download Now!</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- quick stats  -->
+            <div>
+              <h2 class="h5 text-uppercase text-white-50">Quick Stats</h2>
+              <div class="row flex-column flex-lg-row">
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+                </div>
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+                </div>
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+                </div>
+                <div class="col mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- location and data block  -->
+            <div class="row">
+              <div class="col mt-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mb-3">
+                      <span class="text-muted">Regional</span>
+                      <div
+                        class="mt-2 progress"
+                        role="progressbar"
+                        aria-label="Success example"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-success"
+                          style="width: 25%"
+                        ></div>
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <span class="text-muted">Regional</span>
+                      <div
+                        class="mt-2 progress"
+                        role="progressbar"
+                        aria-label="Info example"
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-info"
+                          style="width: 50%"
+                        ></div>
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <span class="text-muted">Regional</span>
+                      <div
+                        class="mt-2 progress"
+                        role="progressbar"
+                        aria-label="Warning example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-warning"
+                          style="width: 75%"
+                        ></div>
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                      <span class="text-muted">Regional</span>
+                      <div
+                        class="mt-2 progress"
+                        role="progressbar"
+                        aria-label="Danger example"
+                        aria-valuenow="100"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-danger"
+                          style="width: 100%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    This is some text within a card body.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
